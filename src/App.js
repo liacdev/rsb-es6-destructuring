@@ -1,22 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Destructuring from "./Components/destructuring.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Destructuring</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/SouthpawCurveConcepts/rsb-es6-destructuring"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Link to repo
         </a>
+        <Destructuring />
       </header>
     </div>
   );
